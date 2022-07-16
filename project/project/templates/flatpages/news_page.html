@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+       {% load static %}
+        <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+    <title>{{ flatpage.title}}</title>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Django flatpages</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a class="nav-link" href="#">Home<span class="sr-only">(current)</span> </a></li>
+                        <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/news/">News</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+<h1 style="text-align: center;"><span style="text-decoration: underline; color: #993366;">Это моё первое приложение на Django <img src="https://html5-editor.net/tinymce/plugins/emoticons/img/smiley-cool.gif" alt="cool" /></span></h1>
+<h2>Я вообще не представляю, что можно было бы здесь написать. Но....что делать?...надо.</h2>
+<p>Возможно это даже будет красиво смотреться в браузере, посмотрим.</p>
+<p>Наверное, надо еще табличку какую-нибудь добавить...</p>
+<p>О! Напишу-ка я себе расписание на ближайшие пару дней.</p>
+<table style="height: 160px; width: 745px;">
+<thead>
+<tr style="text-align: center;">
+<td style="width: 63.4667px; text-align: center;">
+<p>№п/п</p>
+</td>
+<td style="width: 293.533px; text-align: center;">суббота</td>
+<td style="width: 179px; text-align: center;">воскресенье</td>
+<td style="width: 179px; text-align: center;">понедельник</td>
+<td style="width: 179px; text-align: center;">вторник</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="width: 63.4667px;">1</td>
+<td style="width: 293.533px;">пройтись по магазинам</td>
+<td style="width: 179px;">отправить ребенка в лагерь</td>
+<td style="width: 179px;">тренировка</td>
+<td style="width: 179px;">пройти 12 юнитов</td>
+</tr>
+<tr>
+<td style="width: 63.4667px;">2</td>
+<td style="width: 293.533px;">собрать ребенка в лагерь</td>
+<td style="width: 179px;">встретиться с Викой</td>
+<td style="width: 179px;">пройти 12 юнитов</td>
+<td style="width: 179px;">послушать карьерный вебинар</td>
+</tr>
+<tr>
+<td style="width: 63.4667px;">3</td>
+<td style="width: 293.533px;">пройти 11 юнитов</td>
+<td style="width: 179px;">пройти 12 юнитов</td>
+<td style="width: 179px;">&nbsp;</td>
+<td style="width: 179px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
